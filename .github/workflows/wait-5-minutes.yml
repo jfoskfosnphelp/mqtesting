@@ -1,0 +1,13 @@
+name: Wait 5 Minutes
+
+on:
+  push:
+  pull_request:
+  merge_group:
+
+jobs:
+  wait-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for 5 minutes
+        run: sleep 300
