@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Wait for 5 minutes
-        run: sleep 2
+        run: sleep 34
